@@ -1,0 +1,23 @@
+.planetsTable {
+  width: 100%;
+}
+
+.title {
+  color: var(--theme-color-primary);
+  padding-bottom: 24px;
+}
+
+.infobox {
+  padding-top: 48px;
+}
+
+.infoboxList > li {
+  padding-bottom: 4px;
+  opacity: 0.75;
+}
+
+.infoboxList > li.highlighted {
+  color: var(--theme-color-primary);
+  padding-bottom: 4px;
+  opacity: 0.75;
+}

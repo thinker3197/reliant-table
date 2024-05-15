@@ -1,0 +1,29 @@
+{
+  "name": "reliant-table",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^31.3.1",
+    "@ag-grid-community/react": "^31.3.1",
+    "@ag-grid-community/styles": "^31.3.1",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-select": "^5.8.0"
+  },
+  "devDependencies": {
+    "@ag-grid-community/core": "^31.3.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
+  }
+}
