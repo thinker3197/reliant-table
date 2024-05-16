@@ -12,10 +12,10 @@ import {
 } from "@ag-grid-community/core";
 import { getTypedKeys } from "../utils/getTypedKeys";
 import { findNextEditableCell, getColProps } from "./helpers";
-import { useKeyPressed } from "../hooks/useKeypressed";
 
 import styles from "./styles.module.css";
 import { InfoBox } from "./infoBox";
+import { useKeyPressed } from "../hooks/useKeyPressed";
 
 export const HIDDEN_KEYS: (keyof Planet)[] = [
   "residents",
